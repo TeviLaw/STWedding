@@ -3,28 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parallaxe Simple</title>
-  <link rel="stylesheet" href="styles/Style.css">
+  <title>Parallaxe Mariage</title>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Lovers+Quarrel&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap" rel="stylesheet">
+  
+  <!-- Style principal -->
+  <link rel="stylesheet" href="styles/style.css">
+
+  <!-- Librairie Parallax -->
+  <script src="https://cdn.jsdelivr.net/npm/rellax@1.12.1/rellax.min.js"></script>
 </head>
 <body>
-  <section class="parallax">
+
+  <!-- Section 1 -->
+  <section class="parallax rellax" data-rellax-speed="-2">
     <div class="overlay">
       <h1>Sonia + Thierry</h1>
-      <p>C'était écris dans les étoiles.</p>
+      <p>C'était écrit dans les étoiles.</p>
     </div>
   </section>
 
+  <!-- Section 2 -->
   <section class="parallax2">
     <div class="overlay">
       <h2>Cela vous évoque-t-il quelque chose ?</h2>
-      <p>Nous avons enfin choisi une date…ce sera pour 2026 !
-        Nous conservons les mêmes critères
-        et vous avez trois semaines
-        pour nous partager vos choix.</p>
-      </div>
+      <p>
+        Nous avons enfin choisi une date… ce sera pour 2026 !<br>
+        Nous conservons les mêmes critères<br>
+        et vous avez trois semaines<br>
+        pour nous partager vos choix.
+      </p>
+    </div>
   </section>
-</body>
-</html>
+
+  <!-- JS -->
+  <script>
+    var rellax = new Rellax('.rellax');
+  </script>
