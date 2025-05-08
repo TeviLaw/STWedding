@@ -16,7 +16,7 @@ html, body {
 /* Section Parallax */
 .parallax {
   height: 100vh;
-  background-image: url('../img/stars.jpg');
+  background-image: url('../img/background-stars.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
